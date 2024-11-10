@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Africain</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+    <!-- Section de navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Bienvenue au Restaurant de Yann</h1>
+    </header>
+
+    <!-- Section Accueil -->
+    <section id="accueil">
+        <h2>Découvrez les saveurs de l'Afrique</h2>
+        <br>
+
+        <p>Plats traditionnels et authentiques de l'Afrique de l'Ouest et de l'Est</p>
+        <br>
+
+        <button onclick="scrollToSection('menu')">Découvrir notre menu</button>
+    </section>
+
+    <!-- Section Menu -->
+    <section id="menu">
+        <h2>Notre Menu</h2>
+        <div class="menu-item">
+            <h3>Jollof Rice</h3>
+            <p>Riz épicé avec des légumes et du poulet.</p>
+            <span>8000f</span>
+        </div>
+        <div class="menu-item">
+            <h3>Poulet Yassa</h3>
+            <p>Plat sénégalais à base de poulet mariné aux oignons.</p>
+            <span>5000f</span>
+        </div>
+        <div class="menu-item">
+            <h3>Foufou et Sauce</h3>
+            <p>Plat traditionnel d'Afrique de l'Ouest servi avec différentes sauces.</p>
+            <span>10000f</span>
+        </div>
+        <div class="menu-item">
+            <h3>boeuf Yassa</h3>
+            <p>viande de boeuf cuisiné avec oignons et épices d'ailleurs.</p>
+            <span>8000f</span>
+        </div>
+        <div class="menu-item">
+            <h3>choukouya</h3>
+            <p>viande de l'agneau halal au grill avec attieké et alloco.</p>
+            <span>12000f</span>
+        </div>
+        <div>
+            <img src="téléchargement (1).jpeg">
+
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="apropos">
+        <h2>À propos de nous</h2>
+        <br>
+
+        <p>Notre restaurant propose des plats traditionnels africains pour vous faire découvrir la richesse culinaire de notre continent. Venez déguster nos spécialités dans un cadre chaleureux et convivial.</p>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <br>
+
+        <p>Adresse : angré djibi, Abidjan</p>
+        <br>
+
+        <p>Téléphone : 23 45 67 89</p>
+        <br>
+
+        <form id="contact-form">
+            <label for="name">Nom</label>
+            <input type="text" id="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+        <div>
+            <img src="téléchargement.jpeg">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Restaurant de Yann - Tous droits réservés</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
